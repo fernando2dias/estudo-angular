@@ -1,5 +1,9 @@
 <h1>Hello world Angular!</h1>
-<app-first-component></app-first-component>
+<nav>
+  <a routerLink="/">Home</a> &nbsp;&nbsp;
+  <a routerLink="/list">Lista</a>
+</nav>
+<!-- <app-first-component></app-first-component>
 <app-parent-data [name] = "userName" [userData]="userData"></app-parent-data>
 <app-directive></app-directive>
 <app-if-render></app-if-render>
@@ -7,4 +11,5 @@
 <app-emitter></app-emitter>
 <app-list-render></app-list-render>
 <app-pipes></app-pipes>
-<app-two-way-binding></app-two-way-binding>
+<app-two-way-binding></app-two-way-binding> -->
+<router-outlet></router-outlet>
